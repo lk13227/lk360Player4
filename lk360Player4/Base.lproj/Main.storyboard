@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mkg-y7-wBK">
+                                <rect key="frame" x="225" y="50" width="150" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="bjn-Mj-giV"/>
+                                </constraints>
+                                <state key="normal" title="播放本地视频">
+                                    <color key="titleColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="playerLocalViedo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z8q-hb-OqI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IOb-E1-hy2">
+                                <rect key="frame" x="225" y="123" width="150" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="bh0-ZC-34m"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="jbr-8j-btm"/>
+                                </constraints>
+                                <state key="normal" title="播放网络视频">
+                                    <color key="titleColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="playerSeverVideo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n5D-hk-vOB"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="http://d8d913s460fub.cloudfront.net/krpanocloud/video/airpano/video-1920x960a.mp4" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QNW-Oy-76z">
+                                <rect key="frame" x="28" y="163" width="544" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="A13-ze-7qH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IOb-E1-hy2" firstAttribute="top" secondItem="Mkg-y7-wBK" secondAttribute="bottom" constant="43" id="8Eb-4K-x2R"/>
+                            <constraint firstItem="Mkg-y7-wBK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8F2-Ap-x3C"/>
+                            <constraint firstItem="IOb-E1-hy2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EhG-uy-x5g"/>
+                            <constraint firstItem="Mkg-y7-wBK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="HOZ-CA-otl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QNW-Oy-76z" secondAttribute="trailing" constant="8" id="VJU-DM-SYi"/>
+                            <constraint firstItem="QNW-Oy-76z" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="h2c-xQ-Lkk"/>
+                            <constraint firstItem="QNW-Oy-76z" firstAttribute="top" secondItem="IOb-E1-hy2" secondAttribute="bottom" constant="10" id="sU2-cU-LeH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="urlTestField" destination="QNW-Oy-76z" id="5ow-dy-RwK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="303"/>
+        </scene>
+    </scenes>
+</document>

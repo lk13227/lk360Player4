@@ -1,0 +1,1258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0349C0F93AFE3C58DD0A140E90992172 /* MD360Program.h in Headers */ = {isa = PBXBuildFile; fileRef = E754D2C0162FF3C11F8C6681A0A5C67A /* MD360Program.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03E14BCB232979024EC19C961665A2C7 /* MDYUV420PProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 117E8059F97A37C752F821E581A62635 /* MDYUV420PProgram.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0546B9B2B449560483F31C2B33E5699F /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D27CC3E2101BD93FE9EF6D808B4D3D3 /* UIImageView+WebCache.m */; };
+		065F9FD79B01DA04DAB225C78F885294 /* SWActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = C53EB45193D4D96BB4D90EAEE42644B5 /* SWActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08B7F4F7741F66FE39CB403D8935FA95 /* ActionSheetCustomPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B2E8557B206C09278401D6742D55C89 /* ActionSheetCustomPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08D37AEBA4DDDE3432A24B95A67ACB94 /* ActionSheetLocalePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 775B96FCCE620E744B338242FFB9133F /* ActionSheetLocalePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		098664D07BA38D86E14189948CC38829 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A3A84EDCD235E7222ED733921C7ED8 /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AB5296F0C66D9BD44AF85FABBE1379F /* MDVRHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 32A200600C0A58950152CCB77D8F8846 /* MDVRHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FA95AAFF6C512C888F8A33990C9E6A6 /* MD360Player4iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A3925CF115BD0A3AF8A56D2B12261D /* MD360Player4iOS-dummy.m */; };
+		12C52BED1FC11DD1164F94E22673D330 /* MDRGBABitmapTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 647D4BA8C7EC6BA16032B253E78ECE75 /* MDRGBABitmapTexture.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		18D9A845FDE3FC508F7597545F507729 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E0FF17CD9B27EDCA89235A526B06DF /* SDWebImageDownloader.m */; };
+		1BD344DE443B499B5688CB52C89F12E5 /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 6732BFFB959863B96FC3F135FA33F3D6 /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E71B0268B9BED0AA92684CDEA0C0436 /* MD360Program.m in Sources */ = {isa = PBXBuildFile; fileRef = AE91F464A6F18CC156939875E0C3C531 /* MD360Program.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1EE3B10A1A878520C110293577D4964E /* MDModeStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = AE8E40AE4FDE4BD6747455B3C529646A /* MDModeStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		211D078B253521041E34D2776D4B5E87 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 717E906D7BB2C233EBBE500E10B9EFBB /* SDWebImageDecoder.m */; };
+		226A3EE7CDDE0FA69E776516E6513858 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB9D0230B237720CE565CF5806DBCC8 /* SDWebImageManager.m */; };
+		257EB9228215B8DBA9D0EDB5AAF1AD0A /* MDDisplayStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6098949B18CF7A8932878BBEC4A8AC5D /* MDDisplayStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25A3E331E10E039FDE260D07EE6410E8 /* Pods-lk360Player4-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFFD4E0F274EC672F7CD8C7CC14D99D /* Pods-lk360Player4-dummy.m */; };
+		25F30D0FED400DC65D62DDE92CF3F22E /* MDDome3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB6A0649CF621C139B7B3316EA21715 /* MDDome3D.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		261032E5CD1AD63D7FF88F373B0E2C4E /* MDInteractiveStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = C78B3B3516C3A206A7829B9DD7F33948 /* MDInteractiveStrategy.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		28666DED72A1F2AD59B5F0E4DF253AE1 /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AC7FF858980AAAC6688FB967BD07A6 /* ActionSheetCustomPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2D92856B28DC2D63F53C6054067DEE58 /* ActionSheetDistancePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 91C7E935EB95190AEE8216CCE4B345FB /* ActionSheetDistancePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35B306D85C8879B8B091CD6B6B80C5D5 /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0085D7856D325AC79A745F27408EF3F7 /* AbstractActionSheetPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		37CACE965A376F8824C233DD366BE8CF /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 55A3EA7EF2D83C3B527B21BBB55ED3F1 /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3988A519EE7E4DFB81562B05F92D9C00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6938B4DEF946D8208E1A41C4462B45A9 /* Foundation.framework */; };
+		3B65706FEC8D609346A0277D0B896BD4 /* MDAbsObject3D.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EFF8FF26A645CBAC03885EE1D1286D3 /* MDAbsObject3D.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DCD5B0D6C7272CE93DF650B23F9B3DE /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 02B3117B9499CFAE85E2A41C2893277E /* SDWebImagePrefetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		428D57519594151CF28555B61B706013 /* MDIJKAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = A631CFE8B2D5C4AEF769BDA9796BAA18 /* MDIJKAdapter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		42DB857E78E6B5259695E417773650C1 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB766FBBC80AB29C3705F42F295B021 /* NSData+ImageContentType.m */; };
+		4403C3B7AF1170112C3FBD66959F2FFF /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A173328704BACA0FE2735934EB8A4FF /* UIView+WebCacheOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4669AA2B6D39E240A34DC9F2168140C8 /* MD360Texture.h in Headers */ = {isa = PBXBuildFile; fileRef = B079C88F7B7F376322A60EF5BACD1C66 /* MD360Texture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49600427B99D4288611BEBD74AA84FC5 /* MDInteractiveStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E5232A475324689C27CF85AD2E20B2B /* MDInteractiveStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A2EC0A0FEA44DD32B00196796FA8B87 /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDE2FE184991880BEB97777E0E0C1C7 /* ActionSheetDatePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4F22BE7731A8AD923C5D1469D822A436 /* MD360Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F4526D08E04D658D5C5B49D7FDA5AB /* MD360Renderer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		544EB8A352B15F7A63200232E661DE75 /* MDVRLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CD5C9137618CC8369DBD5EFFD1C0C5 /* MDVRLibrary.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		561802AF8E039DEDD152E2CC39A13822 /* VIMVideoPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FE09D50BCA1DC06BE00F77DAEB1176A /* VIMVideoPlayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		599FFD3CBA40B5C58321B5FF37BDE3BE /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 728B04DB9F8EB6F0BF9D3B0A78B2EEF0 /* SDWebImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A06A20739B0ECA9929C5C500E6BEC88 /* ActionSheetStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = ACF874C6DA5BE6989F9133C6597A481A /* ActionSheetStringPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C3E1C368A8F25F1394CD22C69D598B2 /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 9158CA32DDD8BDE43F0CA19CE7DA0286 /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C4DDE0E7B7CCA08CFBDCEF31AFEBD7D /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6A064EE88169CAB926B15BDE245355 /* UIImage+GIF.m */; };
+		641D4F8DFED1034C46AA27BF49FD8C0D /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE344A8EB087FF4A0A04E6F92A12EA90 /* CoreMotion.framework */; };
+		64D5D91CF314A020EAE1997D9FC3218C /* MDRGBAProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8F657633F994A8051F93C2FD9D94F3 /* MDRGBAProgram.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		683387C516F94CB60304608B1B8B197F /* VIMVideoPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CE70AFB6283266A62E6DC04BD07CD50 /* VIMVideoPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69D6DEEE924FBD29F2F92E57559AA0DB /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDDD99347BFC6231945DAFC630D2CB9 /* SDWebImageDownloaderOperation.m */; };
+		6EF89CD5CDF6FF9CF36D38AAAB17FD84 /* ActionSheetPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0460EC8A815066B7CA8A1324AAA6FB24 /* ActionSheetPicker-dummy.m */; };
+		710037E06937E9C9BDCF2DD38AC835B0 /* GLUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 962E241344F2F84C2B1A418503845E6A /* GLUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7371636F22A4B332922C20D69C2B7DA1 /* MDGLKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1624BB56B0928F8CE5258C7F450DAE57 /* MDGLKViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		76520F51F7D49E69E45770C48D902E74 /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 17807B35437AA7B30AE8B91DEEFAC60D /* SDWebImageDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		783A81F0E44D7454AE041021BCC7280E /* MDVideoDataAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E12F496067DFC6F400742B86DD00FB /* MDVideoDataAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A048A98A50FD2045EE636ABEB9B88E0 /* MD360Renderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC227037196938E369E6B53CD0B3D99 /* MD360Renderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8004CDF6ADC56F2B18C858E44013B7ED /* MDRGBAVideoTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 8864A4F972468A9422C2C1537F15085B /* MDRGBAVideoTexture.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		84902711C8186CEE4DBBE925B1DF7FB2 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2B37B119A5A93F154F1C899B8E9897 /* SDWebImagePrefetcher.m */; };
+		8989C52448BDB80411228DD39DA1A67D /* SWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = A30DC44F5750D2BDD8B23F6068F21328 /* SWActionSheet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8AF40032F80DACDC14AF2B68B012F02B /* GLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1856DC5B7FD9F976CA35201969248079 /* GLUtil.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8D021F2C617DB87E01177C4EA8B6D038 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6938B4DEF946D8208E1A41C4462B45A9 /* Foundation.framework */; };
+		8D4EA42D749DF62B0DE3EE2227E5726E /* ActionSheetDistancePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDAF6DD16D448B72EA9F4C804DD29F7 /* ActionSheetDistancePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8ED6273632EAC7CC120E35A0AE4A4321 /* ActionSheetDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = C334A9B4E547B06B7073377357227D8E /* ActionSheetDatePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9135D9599FA9417D358D2BCA9757397D /* MDTouchHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = D6B397A849E2450C320BA1CE17980AE8 /* MDTouchHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91CEE23B1C49E540E9898A7FACB31ABA /* MDVideoDataAdatperAVPlayerImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2A80AEFFA9C11C8F02D21ABDB24078 /* MDVideoDataAdatperAVPlayerImpl.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9380A32D6FC7329DA1FC94B842A8ED4B /* MDGLRendererDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 967C4568AC3BF943A02A29D4B6D8E143 /* MDGLRendererDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98E3B0BF05A44560438EA7990444BE2F /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F3F8EC3236EDF10C56379877B14D19F0 /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B6E9FFD37E21D81976710903212E2B9 /* MD360Director.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F9FE521E7DB877F1CB2D30D9E5E7F2 /* MD360Director.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9C3EE350671360F75784D9CF2EEFECFE /* MDSphere3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CECB02C8BE1D4F42F794D9E7921A69 /* MDSphere3D.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9C642ABB7FDF3B75954E8FB63C9DDD46 /* MDObject3DHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E40CCB1528C1F952A8601E00FB74F6F8 /* MDObject3DHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D2D04AE2EB19522C779C55FBE3DA615 /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E022F660F22F1A25AC085C026775FC5 /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DA31764D0927D8C576308A69467E722 /* MDVideoDataAdatperAVPlayerImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 770E8E25F3E984FBB7756D0D30A7CC02 /* MDVideoDataAdatperAVPlayerImpl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E16DB069192F27D3A602E716E75618D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40CAA3C21B4993EF37AB1D742C0CD38 /* UIKit.framework */; };
+		9E6357D72F90AA50C28B06ECBFF37CD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6938B4DEF946D8208E1A41C4462B45A9 /* Foundation.framework */; };
+		9F2F28BB0145A6F32555580802DAB1FD /* MDVRLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 10E8DCAB617530DE336712858DF3BAFD /* MDVRLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0372FD0E9FE943695070071769B27BE /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 213A1E2F5BCC6CE3D1BE0F15149C04B3 /* ActionSheetStringPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A414244EC0E6DBB9FCE47333D7F48C10 /* MDTouchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6114FA5D0FB466330ED1960925599D /* MDTouchHelper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A4E6204AB00B06348702CF5BAA13E8FD /* AbstractActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 700B79E92FB30955DC5CB90DDD34FBE7 /* AbstractActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5E9CED28C6562600529DD536FEB3C1E /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 44889BAF90D041B1A9F9D4BF24F6BA1B /* UIButton+WebCache.m */; };
+		A76C2B4A27F877234F24083E079AA5B9 /* SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F0B789F1C659ECCB4B6EBFB3811166 /* SDWebImage-dummy.m */; };
+		AF51DADE77F89305B17644B4464A9FD9 /* MDProjectionStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CC2F460C21261E102AA169221BA422 /* MDProjectionStrategy.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B309E29DBCCC4A6567088EEF9A99BA73 /* MDAbsObject3D.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DE46CA6F9039BEFE9123C50E3FDE78 /* MDAbsObject3D.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B67E06D66C725271EE4D3C78AC10B77B /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 7541A5C5254E3BFCF5432F4BAAE436CE /* SDWebImageCompat.m */; };
+		BAFE2D7187531EC9A9781D127D582097 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6938B4DEF946D8208E1A41C4462B45A9 /* Foundation.framework */; };
+		BB7DA23FC1F433743174458AB3999986 /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 92464A73812C3D94665C809F7BDFC264 /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDD5C487D3D4C5171F8CBD10536A75B /* VIMVideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FEDF7CC8677E22C38CB805C8270696 /* VIMVideoPlayerView.m */; };
+		BC4E36D7CEF614DC998F9F4DEDAA51DD /* ActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C9A79E58523C43C63C95861A3A8AA0 /* ActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE2227564224851DD1395ED50B541B6A /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9A2EE2C9071699365E0FD39CF15AA1 /* SDWebImageCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEBD0583ECF04CCC6FC81E72E9ADC9FF /* MDProjectionStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A053C4C4F0E2129D459CD0AD2435A8B /* MDProjectionStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C08B3335892811CCA2200E41F86F62F0 /* SDWebImageDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = B7F05E980048EE94927CF4EDEB13A801 /* SDWebImageDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C13107F8CE4EE14D78CABB2D5DCB36B4 /* MDModeStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = A40DF883CB2CD261B4A95CA4EBCA6C43 /* MDModeStrategy.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C4E17898C0F14EBC5E76644AC9ED7E4D /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B8E5CA4883EE07ECD5F233181862CA6 /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9C66C545F46F7D78B2F53B87EE20D2 /* MDVideoFrameAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BF15E891DC4ECAABFA760A8EC81D7461 /* MDVideoFrameAdapter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D0DCA478A4D2C3C75E3CC0F99101414F /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 842043ED338EED85310EA05C60579C43 /* UIImageView+HighlightedWebCache.m */; };
+		D4C2D6BEB2735CB92E6D3BCEFFB65465 /* MD360Texture.m in Sources */ = {isa = PBXBuildFile; fileRef = 62830318FD575E5D1E134FB21B84BAE8 /* MD360Texture.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D6634E0FE208CC2AC2F5FF00571CF6F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6938B4DEF946D8208E1A41C4462B45A9 /* Foundation.framework */; };
+		D680C6A738010431C0A4140DEE083441 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0008A32A2F2964AC3685BA610FCCE53D /* ImageIO.framework */; };
+		DB29E27D00C5FB784025EE9A610890AD /* MDExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AFEA5C0330345CC9FC08002FC556CD7 /* MDExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC195969A39F7B4AE37730FF93F202A2 /* MDStereoSphere3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 61352635E0310E35D58A0BB7776BB1E2 /* MDStereoSphere3D.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E14682D5D78BCDDCBD43C6FAD7D99CE9 /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A880FE4F251313B5E48402A421F46811 /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2EF58AA6C7F52DC0E7A3EF86DC19DA9 /* MDObject3DHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FD47DC10F9D0A8CB7A8614669F123B48 /* MDObject3DHelper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E3C19C16110476742EB11E6B5BBE3154 /* MDYUV420PVideoTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = A40D8EDDD6F8B6A1118E8B28C5837D2D /* MDYUV420PVideoTexture.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E6D430FAFA40DFD82D692B53D95BACE1 /* ActionSheetLocalePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = DD28FBBA8AFC192DE3C0912B2272089E /* ActionSheetLocalePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB072B7C3149F3B1A146DE39E95ECFE2 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A779CDEEF494B691424E988C6068CF9 /* SDImageCache.m */; };
+		EE85CFBACF31AD6EF62F16567C2D7469 /* MD360Director.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E64470AD89C0BB71056C6979E945780 /* MD360Director.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEB8BF0A8F4C4D3E9A2244BA5A742DE0 /* DistancePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 44FD4336349A29A5913D4984BCECD3CA /* DistancePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F447C8365974C3B748F01AD502276ED8 /* ActionSheetCustomPickerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D5AEA1E574D1C1BA63C1EA8554AC96F /* ActionSheetCustomPickerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F642E71EE1B3D24663401355C520411A /* DistancePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9708F2627F2F5C606EB4BF3B48192C74 /* DistancePickerView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F906E05A9CDFD5A6744F9EF47B812E9F /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D56F3935DB8DA2B57B0420EFA7B8888E /* UIView+WebCacheOperation.m */; };
+		FA0E72A9C9D91155D732B7F7327B4D9E /* MDGLKViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EE1714B6525CA4B9CDBF75B25CE9EB64 /* MDGLKViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB4C8D09D88F460DA5DC362E2F9FFDFD /* MDDisplayStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83924F5616B8ADDA0CB5CEE232E4BFC6 /* MDDisplayStrategy.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FD22F5BDAD9B622245E64AD8C0454097 /* VIMVideoPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40260BDB7E0B6503780CF218B2DFCB82 /* VIMVideoPlayer-dummy.m */; };
+		FEA33AFD3FD28C0921C5F51971624CC0 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BEDA894449368CBA9ADE7B768DBD2 /* UIImage+MultiFormat.m */; };
+		FEF9B7F345F65B3EA1863F03073ABCF2 /* VIMVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9387841EA0F10DB7522953662D120807 /* VIMVideoPlayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44FC337C095A6258E9FD2CDF68CA875C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66E90A2CC364C2CB713301EBCEE0642D;
+			remoteInfo = ActionSheetPicker;
+		};
+		6C5DC4712A926C8ACA2B695B889C0204 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D708AFA96B122142B60B9736B812B98D;
+			remoteInfo = SDWebImage;
+		};
+		D781A3902F46F4E88BCDB6D38FD01F08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8EDA5D19FE21C02159856EB64418BAE;
+			remoteInfo = MD360Player4iOS;
+		};
+		FD68A03C27AB458B2340D072434250F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C17DA73F507C1AA8908CA80B3E7E2DB3;
+			remoteInfo = VIMVideoPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0008A32A2F2964AC3685BA610FCCE53D /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		0085D7856D325AC79A745F27408EF3F7 /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AbstractActionSheetPicker.m; path = Pickers/AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		02B3117B9499CFAE85E2A41C2893277E /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		0460EC8A815066B7CA8A1324AAA6FB24 /* ActionSheetPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ActionSheetPicker-dummy.m"; sourceTree = "<group>"; };
+		04A29DCE669FDC3AE2D0148B84A95A2B /* libPods-lk360Player4.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lk360Player4.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09AC7FF858980AAAC6688FB967BD07A6 /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetCustomPicker.m; path = Pickers/ActionSheetCustomPicker.m; sourceTree = "<group>"; };
+		0A053C4C4F0E2129D459CD0AD2435A8B /* MDProjectionStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDProjectionStrategy.h; path = MDVRLibrary/MDVRLibrary/MDProjectionStrategy.h; sourceTree = "<group>"; };
+		0C48B10D690451FE7DC7D9F26559524D /* Pods-lk360Player4-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lk360Player4-acknowledgements.plist"; sourceTree = "<group>"; };
+		0C64457BCD7F46F4943AF7B20D2CE371 /* Pods-lk360Player4-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-lk360Player4-frameworks.sh"; sourceTree = "<group>"; };
+		0E2B37B119A5A93F154F1C899B8E9897 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		10E8DCAB617530DE336712858DF3BAFD /* MDVRLibrary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDVRLibrary.h; path = MDVRLibrary/MDVRLibrary/MDVRLibrary.h; sourceTree = "<group>"; };
+		117E8059F97A37C752F821E581A62635 /* MDYUV420PProgram.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDYUV420PProgram.m; path = MDVRLibrary/MDVRLibrary/MDYUV420PProgram.m; sourceTree = "<group>"; };
+		1624BB56B0928F8CE5258C7F450DAE57 /* MDGLKViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDGLKViewController.m; path = MDVRLibrary/MDVRLibrary/MDGLKViewController.m; sourceTree = "<group>"; };
+		17807B35437AA7B30AE8B91DEEFAC60D /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		1856DC5B7FD9F976CA35201969248079 /* GLUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GLUtil.m; path = MDVRLibrary/MDVRLibrary/GLUtil.m; sourceTree = "<group>"; };
+		19B34B7783954E73736CF6223075E28F /* Pods-lk360Player4-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-lk360Player4-resources.sh"; sourceTree = "<group>"; };
+		1BF361C4E877E17C49D2CDBB27683BF3 /* libVIMVideoPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVIMVideoPlayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EDDD99347BFC6231945DAFC630D2CB9 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		1F55849D6EEC7FE8C96116957380B5D7 /* MD360Player4iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MD360Player4iOS-prefix.pch"; sourceTree = "<group>"; };
+		1FE09D50BCA1DC06BE00F77DAEB1176A /* VIMVideoPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIMVideoPlayerView.h; path = "VIMVideoPlayer-Source/VIMVideoPlayerView.h"; sourceTree = "<group>"; };
+		213A1E2F5BCC6CE3D1BE0F15149C04B3 /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetStringPicker.m; path = Pickers/ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		2AFEA5C0330345CC9FC08002FC556CD7 /* MDExt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDExt.h; path = MDVRLibrary/MDVRLibrary/MDExt.h; sourceTree = "<group>"; };
+		2E5232A475324689C27CF85AD2E20B2B /* MDInteractiveStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDInteractiveStrategy.h; path = MDVRLibrary/MDVRLibrary/MDInteractiveStrategy.h; sourceTree = "<group>"; };
+		32A200600C0A58950152CCB77D8F8846 /* MDVRHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDVRHeader.h; path = MDVRLibrary/MDVRLibrary/MDVRHeader.h; sourceTree = "<group>"; };
+		36E0FF17CD9B27EDCA89235A526B06DF /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
+		3880CCB09B8F390A4EDCCD6E29A4A05F /* ActionSheetPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ActionSheetPicker.xcconfig; sourceTree = "<group>"; };
+		398FCB45FFA3CBBFD986A610E4D40507 /* vrlibraw.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = vrlibraw.bundle; path = MDVRLibrary/MDVRLibrary/vrlibraw.bundle; sourceTree = "<group>"; };
+		3AC227037196938E369E6B53CD0B3D99 /* MD360Renderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MD360Renderer.h; path = MDVRLibrary/MDVRLibrary/MD360Renderer.h; sourceTree = "<group>"; };
+		3D5AEA1E574D1C1BA63C1EA8554AC96F /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPickerDelegate.h; path = Pickers/ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
+		40260BDB7E0B6503780CF218B2DFCB82 /* VIMVideoPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VIMVideoPlayer-dummy.m"; sourceTree = "<group>"; };
+		44889BAF90D041B1A9F9D4BF24F6BA1B /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
+		44FD4336349A29A5913D4984BCECD3CA /* DistancePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DistancePickerView.h; path = Pickers/DistancePickerView.h; sourceTree = "<group>"; };
+		46F0B789F1C659ECCB4B6EBFB3811166 /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
+		4A779CDEEF494B691424E988C6068CF9 /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
+		4AB766FBBC80AB29C3705F42F295B021 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		4B2E8557B206C09278401D6742D55C89 /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPicker.h; path = Pickers/ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		4BB9D0230B237720CE565CF5806DBCC8 /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
+		4BDAF6DD16D448B72EA9F4C804DD29F7 /* ActionSheetDistancePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDistancePicker.m; path = Pickers/ActionSheetDistancePicker.m; sourceTree = "<group>"; };
+		4D27CC3E2101BD93FE9EF6D808B4D3D3 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		4D4E930C0EEFD3A89436043D39E0D5DD /* MD360Player4iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MD360Player4iOS.xcconfig; sourceTree = "<group>"; };
+		55A3EA7EF2D83C3B527B21BBB55ED3F1 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		5B2A80AEFFA9C11C8F02D21ABDB24078 /* MDVideoDataAdatperAVPlayerImpl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDVideoDataAdatperAVPlayerImpl.m; path = MDVRLibrary/MDVRLibrary/MDVideoDataAdatperAVPlayerImpl.m; sourceTree = "<group>"; };
+		5B6114FA5D0FB466330ED1960925599D /* MDTouchHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDTouchHelper.m; path = MDVRLibrary/MDVRLibrary/MDTouchHelper.m; sourceTree = "<group>"; };
+		5B8F657633F994A8051F93C2FD9D94F3 /* MDRGBAProgram.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDRGBAProgram.m; path = MDVRLibrary/MDVRLibrary/MDRGBAProgram.m; sourceTree = "<group>"; };
+		5BB6A0649CF621C139B7B3316EA21715 /* MDDome3D.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDDome3D.m; path = MDVRLibrary/MDVRLibrary/MDDome3D.m; sourceTree = "<group>"; };
+		5D828B00CBA12E6C6B2BA6F8C65AA073 /* libSDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSDWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6098949B18CF7A8932878BBEC4A8AC5D /* MDDisplayStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDDisplayStrategy.h; path = MDVRLibrary/MDVRLibrary/MDDisplayStrategy.h; sourceTree = "<group>"; };
+		61352635E0310E35D58A0BB7776BB1E2 /* MDStereoSphere3D.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDStereoSphere3D.m; path = MDVRLibrary/MDVRLibrary/MDStereoSphere3D.m; sourceTree = "<group>"; };
+		62830318FD575E5D1E134FB21B84BAE8 /* MD360Texture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MD360Texture.m; path = MDVRLibrary/MDVRLibrary/MD360Texture.m; sourceTree = "<group>"; };
+		647D4BA8C7EC6BA16032B253E78ECE75 /* MDRGBABitmapTexture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDRGBABitmapTexture.m; path = MDVRLibrary/MDVRLibrary/MDRGBABitmapTexture.m; sourceTree = "<group>"; };
+		65FEDF7CC8677E22C38CB805C8270696 /* VIMVideoPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VIMVideoPlayerView.m; path = "VIMVideoPlayer-Source/VIMVideoPlayerView.m"; sourceTree = "<group>"; };
+		66CECB02C8BE1D4F42F794D9E7921A69 /* MDSphere3D.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDSphere3D.m; path = MDVRLibrary/MDVRLibrary/MDSphere3D.m; sourceTree = "<group>"; };
+		6732BFFB959863B96FC3F135FA33F3D6 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
+		6938B4DEF946D8208E1A41C4462B45A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		699229242EA3D8161EC1DC99881EA91D /* Pods-lk360Player4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lk360Player4.release.xcconfig"; sourceTree = "<group>"; };
+		700B79E92FB30955DC5CB90DDD34FBE7 /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AbstractActionSheetPicker.h; path = Pickers/AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		717E906D7BB2C233EBBE500E10B9EFBB /* SDWebImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = SDWebImage/SDWebImageDecoder.m; sourceTree = "<group>"; };
+		728B04DB9F8EB6F0BF9D3B0A78B2EEF0 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
+		7541A5C5254E3BFCF5432F4BAAE436CE /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
+		76A3925CF115BD0A3AF8A56D2B12261D /* MD360Player4iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MD360Player4iOS-dummy.m"; sourceTree = "<group>"; };
+		770E8E25F3E984FBB7756D0D30A7CC02 /* MDVideoDataAdatperAVPlayerImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDVideoDataAdatperAVPlayerImpl.h; path = MDVRLibrary/MDVRLibrary/MDVideoDataAdatperAVPlayerImpl.h; sourceTree = "<group>"; };
+		775B96FCCE620E744B338242FFB9133F /* ActionSheetLocalePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetLocalePicker.m; path = Pickers/ActionSheetLocalePicker.m; sourceTree = "<group>"; };
+		7CE70AFB6283266A62E6DC04BD07CD50 /* VIMVideoPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIMVideoPlayer.h; path = "VIMVideoPlayer-Source/VIMVideoPlayer.h"; sourceTree = "<group>"; };
+		7EFF8FF26A645CBAC03885EE1D1286D3 /* MDAbsObject3D.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDAbsObject3D.h; path = MDVRLibrary/MDVRLibrary/MDAbsObject3D.h; sourceTree = "<group>"; };
+		81F4526D08E04D658D5C5B49D7FDA5AB /* MD360Renderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MD360Renderer.m; path = MDVRLibrary/MDVRLibrary/MD360Renderer.m; sourceTree = "<group>"; };
+		83924F5616B8ADDA0CB5CEE232E4BFC6 /* MDDisplayStrategy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDDisplayStrategy.m; path = MDVRLibrary/MDVRLibrary/MDDisplayStrategy.m; sourceTree = "<group>"; };
+		842043ED338EED85310EA05C60579C43 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		87AC3CF3DD1B495D9AE4E315D4086750 /* VIMVideoPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VIMVideoPlayer-prefix.pch"; sourceTree = "<group>"; };
+		8864A4F972468A9422C2C1537F15085B /* MDRGBAVideoTexture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDRGBAVideoTexture.m; path = MDVRLibrary/MDVRLibrary/MDRGBAVideoTexture.m; sourceTree = "<group>"; };
+		8E64470AD89C0BB71056C6979E945780 /* MD360Director.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MD360Director.h; path = MDVRLibrary/MDVRLibrary/MD360Director.h; sourceTree = "<group>"; };
+		8F7BEDA894449368CBA9ADE7B768DBD2 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		9158CA32DDD8BDE43F0CA19CE7DA0286 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		91C7E935EB95190AEE8216CCE4B345FB /* ActionSheetDistancePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDistancePicker.h; path = Pickers/ActionSheetDistancePicker.h; sourceTree = "<group>"; };
+		92464A73812C3D94665C809F7BDFC264 /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
+		9387841EA0F10DB7522953662D120807 /* VIMVideoPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VIMVideoPlayer.m; path = "VIMVideoPlayer-Source/VIMVideoPlayer.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		962E241344F2F84C2B1A418503845E6A /* GLUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLUtil.h; path = MDVRLibrary/MDVRLibrary/GLUtil.h; sourceTree = "<group>"; };
+		967C4568AC3BF943A02A29D4B6D8E143 /* MDGLRendererDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDGLRendererDelegate.h; path = MDVRLibrary/MDVRLibrary/MDGLRendererDelegate.h; sourceTree = "<group>"; };
+		9708F2627F2F5C606EB4BF3B48192C74 /* DistancePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DistancePickerView.m; path = Pickers/DistancePickerView.m; sourceTree = "<group>"; };
+		98CC2F460C21261E102AA169221BA422 /* MDProjectionStrategy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDProjectionStrategy.m; path = MDVRLibrary/MDVRLibrary/MDProjectionStrategy.m; sourceTree = "<group>"; };
+		9A173328704BACA0FE2735934EB8A4FF /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		9B8E5CA4883EE07ECD5F233181862CA6 /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
+		9E022F660F22F1A25AC085C026775FC5 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		A30DC44F5750D2BDD8B23F6068F21328 /* SWActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWActionSheet.m; path = Pickers/SWActionSheet.m; sourceTree = "<group>"; };
+		A40D8EDDD6F8B6A1118E8B28C5837D2D /* MDYUV420PVideoTexture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDYUV420PVideoTexture.m; path = MDVRLibrary/MDVRLibrary/MDYUV420PVideoTexture.m; sourceTree = "<group>"; };
+		A40DF883CB2CD261B4A95CA4EBCA6C43 /* MDModeStrategy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDModeStrategy.m; path = MDVRLibrary/MDVRLibrary/MDModeStrategy.m; sourceTree = "<group>"; };
+		A631CFE8B2D5C4AEF769BDA9796BAA18 /* MDIJKAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDIJKAdapter.m; path = MDVRLibrary/MDVRLibrary/MDIJKAdapter.m; sourceTree = "<group>"; };
+		A880FE4F251313B5E48402A421F46811 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
+		AC48C709500B0722003531BD8CC9B5FE /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
+		ACF874C6DA5BE6989F9133C6597A481A /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetStringPicker.h; path = Pickers/ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		AE8E40AE4FDE4BD6747455B3C529646A /* MDModeStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDModeStrategy.h; path = MDVRLibrary/MDVRLibrary/MDModeStrategy.h; sourceTree = "<group>"; };
+		AE91F464A6F18CC156939875E0C3C531 /* MD360Program.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MD360Program.m; path = MDVRLibrary/MDVRLibrary/MD360Program.m; sourceTree = "<group>"; };
+		B079C88F7B7F376322A60EF5BACD1C66 /* MD360Texture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MD360Texture.h; path = MDVRLibrary/MDVRLibrary/MD360Texture.h; sourceTree = "<group>"; };
+		B0C26B312AAA4DE6F314A57D6CF7C63D /* VIMVideoPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VIMVideoPlayer.xcconfig; sourceTree = "<group>"; };
+		B0F9FE521E7DB877F1CB2D30D9E5E7F2 /* MD360Director.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MD360Director.m; path = MDVRLibrary/MDVRLibrary/MD360Director.m; sourceTree = "<group>"; };
+		B1A3DF3C41B1AD99B0BC5566DA82FAD6 /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
+		B4A3A84EDCD235E7222ED733921C7ED8 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
+		B6E12F496067DFC6F400742B86DD00FB /* MDVideoDataAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDVideoDataAdapter.h; path = MDVRLibrary/MDVRLibrary/MDVideoDataAdapter.h; sourceTree = "<group>"; };
+		B7F05E980048EE94927CF4EDEB13A801 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = SDWebImage/SDWebImageDecoder.h; sourceTree = "<group>"; };
+		BF15E891DC4ECAABFA760A8EC81D7461 /* MDVideoFrameAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDVideoFrameAdapter.m; path = MDVRLibrary/MDVRLibrary/MDVideoFrameAdapter.m; sourceTree = "<group>"; };
+		C334A9B4E547B06B7073377357227D8E /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDatePicker.h; path = Pickers/ActionSheetDatePicker.h; sourceTree = "<group>"; };
+		C40CAA3C21B4993EF37AB1D742C0CD38 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C53EB45193D4D96BB4D90EAEE42644B5 /* SWActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWActionSheet.h; path = Pickers/SWActionSheet.h; sourceTree = "<group>"; };
+		C78B3B3516C3A206A7829B9DD7F33948 /* MDInteractiveStrategy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDInteractiveStrategy.m; path = MDVRLibrary/MDVRLibrary/MDInteractiveStrategy.m; sourceTree = "<group>"; };
+		CEDE2FE184991880BEB97777E0E0C1C7 /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDatePicker.m; path = Pickers/ActionSheetDatePicker.m; sourceTree = "<group>"; };
+		D56F3935DB8DA2B57B0420EFA7B8888E /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		D6B397A849E2450C320BA1CE17980AE8 /* MDTouchHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDTouchHelper.h; path = MDVRLibrary/MDVRLibrary/MDTouchHelper.h; sourceTree = "<group>"; };
+		DD28FBBA8AFC192DE3C0912B2272089E /* ActionSheetLocalePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetLocalePicker.h; path = Pickers/ActionSheetLocalePicker.h; sourceTree = "<group>"; };
+		E40CCB1528C1F952A8601E00FB74F6F8 /* MDObject3DHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDObject3DHelper.h; path = MDVRLibrary/MDVRLibrary/MDObject3DHelper.h; sourceTree = "<group>"; };
+		E754D2C0162FF3C11F8C6681A0A5C67A /* MD360Program.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MD360Program.h; path = MDVRLibrary/MDVRLibrary/MD360Program.h; sourceTree = "<group>"; };
+		EB78EB71118196BFF7BACC8BFA660777 /* libMD360Player4iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMD360Player4iOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBBD6C02300EACC47EB8313C8521BF3C /* libActionSheetPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libActionSheetPicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBFFD4E0F274EC672F7CD8C7CC14D99D /* Pods-lk360Player4-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-lk360Player4-dummy.m"; sourceTree = "<group>"; };
+		EC9A2EE2C9071699365E0FD39CF15AA1 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
+		EE1714B6525CA4B9CDBF75B25CE9EB64 /* MDGLKViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDGLKViewController.h; path = MDVRLibrary/MDVRLibrary/MDGLKViewController.h; sourceTree = "<group>"; };
+		F0DE46CA6F9039BEFE9123C50E3FDE78 /* MDAbsObject3D.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDAbsObject3D.m; path = MDVRLibrary/MDVRLibrary/MDAbsObject3D.m; sourceTree = "<group>"; };
+		F3F8EC3236EDF10C56379877B14D19F0 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		F4C9A79E58523C43C63C95861A3A8AA0 /* ActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetPicker.h; path = Pickers/ActionSheetPicker.h; sourceTree = "<group>"; };
+		F4CD5C9137618CC8369DBD5EFFD1C0C5 /* MDVRLibrary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDVRLibrary.m; path = MDVRLibrary/MDVRLibrary/MDVRLibrary.m; sourceTree = "<group>"; };
+		F6A7A28FA83B307F2E9784E068C88B41 /* ActionSheetPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionSheetPicker-prefix.pch"; sourceTree = "<group>"; };
+		FB39BEF68DFFA61FC8026B77EAA7A7A6 /* Pods-lk360Player4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lk360Player4.debug.xcconfig"; sourceTree = "<group>"; };
+		FD47DC10F9D0A8CB7A8614669F123B48 /* MDObject3DHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDObject3DHelper.m; path = MDVRLibrary/MDVRLibrary/MDObject3DHelper.m; sourceTree = "<group>"; };
+		FD6A064EE88169CAB926B15BDE245355 /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
+		FDBCC1468C5E6489D25A1C6311C0599B /* Pods-lk360Player4-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-lk360Player4-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FE344A8EB087FF4A0A04E6F92A12EA90 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		797BE32A3460F9194EBFCFCF97E84B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6634E0FE208CC2AC2F5FF00571CF6F6 /* Foundation.framework in Frameworks */,
+				9E16DB069192F27D3A602E716E75618D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9A1CD2A18B0D7A61A253063670CA10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641D4F8DFED1034C46AA27BF49FD8C0D /* CoreMotion.framework in Frameworks */,
+				9E6357D72F90AA50C28B06ECBFF37CD6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24C6BD71C29FC8B9A0DB9DF3FD1409B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D021F2C617DB87E01177C4EA8B6D038 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF940E482DC4B1505424278EA1FDB7EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFE2D7187531EC9A9781D127D582097 /* Foundation.framework in Frameworks */,
+				D680C6A738010431C0A4140DEE083441 /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F74E22051E30DC19FE10963E3D047030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3988A519EE7E4DFB81562B05F92D9C00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DD09EEE9AD03F686415C73F211F018C /* ActionSheetPicker */ = {
+			isa = PBXGroup;
+			children = (
+				700B79E92FB30955DC5CB90DDD34FBE7 /* AbstractActionSheetPicker.h */,
+				0085D7856D325AC79A745F27408EF3F7 /* AbstractActionSheetPicker.m */,
+				4B2E8557B206C09278401D6742D55C89 /* ActionSheetCustomPicker.h */,
+				09AC7FF858980AAAC6688FB967BD07A6 /* ActionSheetCustomPicker.m */,
+				3D5AEA1E574D1C1BA63C1EA8554AC96F /* ActionSheetCustomPickerDelegate.h */,
+				C334A9B4E547B06B7073377357227D8E /* ActionSheetDatePicker.h */,
+				CEDE2FE184991880BEB97777E0E0C1C7 /* ActionSheetDatePicker.m */,
+				91C7E935EB95190AEE8216CCE4B345FB /* ActionSheetDistancePicker.h */,
+				4BDAF6DD16D448B72EA9F4C804DD29F7 /* ActionSheetDistancePicker.m */,
+				DD28FBBA8AFC192DE3C0912B2272089E /* ActionSheetLocalePicker.h */,
+				775B96FCCE620E744B338242FFB9133F /* ActionSheetLocalePicker.m */,
+				F4C9A79E58523C43C63C95861A3A8AA0 /* ActionSheetPicker.h */,
+				ACF874C6DA5BE6989F9133C6597A481A /* ActionSheetStringPicker.h */,
+				213A1E2F5BCC6CE3D1BE0F15149C04B3 /* ActionSheetStringPicker.m */,
+				44FD4336349A29A5913D4984BCECD3CA /* DistancePickerView.h */,
+				9708F2627F2F5C606EB4BF3B48192C74 /* DistancePickerView.m */,
+				C53EB45193D4D96BB4D90EAEE42644B5 /* SWActionSheet.h */,
+				A30DC44F5750D2BDD8B23F6068F21328 /* SWActionSheet.m */,
+				457C0EAF93134DC4D2C971E1126BC494 /* Support Files */,
+			);
+			path = ActionSheetPicker;
+			sourceTree = "<group>";
+		};
+		134C50F01D6ABCC49C3443D3E43BAF0C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC48C709500B0722003531BD8CC9B5FE /* SDWebImage.xcconfig */,
+				46F0B789F1C659ECCB4B6EBFB3811166 /* SDWebImage-dummy.m */,
+				B1A3DF3C41B1AD99B0BC5566DA82FAD6 /* SDWebImage-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SDWebImage";
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				374D183DDC7243375C4CB15FDA37EB7F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		374D183DDC7243375C4CB15FDA37EB7F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FE344A8EB087FF4A0A04E6F92A12EA90 /* CoreMotion.framework */,
+				6938B4DEF946D8208E1A41C4462B45A9 /* Foundation.framework */,
+				0008A32A2F2964AC3685BA610FCCE53D /* ImageIO.framework */,
+				C40CAA3C21B4993EF37AB1D742C0CD38 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		457C0EAF93134DC4D2C971E1126BC494 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3880CCB09B8F390A4EDCCD6E29A4A05F /* ActionSheetPicker.xcconfig */,
+				0460EC8A815066B7CA8A1324AAA6FB24 /* ActionSheetPicker-dummy.m */,
+				F6A7A28FA83B307F2E9784E068C88B41 /* ActionSheetPicker-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ActionSheetPicker";
+			sourceTree = "<group>";
+		};
+		4CA272E1C47F52CF8B371C13C2D24CFA /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				F0AC1750E72114895447570C3BDC6B8C /* Core */,
+				134C50F01D6ABCC49C3443D3E43BAF0C /* Support Files */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		511B193EA762BE36A7A8EFDEC3FC4531 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBBD6C02300EACC47EB8313C8521BF3C /* libActionSheetPicker.a */,
+				EB78EB71118196BFF7BACC8BFA660777 /* libMD360Player4iOS.a */,
+				04A29DCE669FDC3AE2D0148B84A95A2B /* libPods-lk360Player4.a */,
+				5D828B00CBA12E6C6B2BA6F8C65AA073 /* libSDWebImage.a */,
+				1BF361C4E877E17C49D2CDBB27683BF3 /* libVIMVideoPlayer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C53465E8B3D51C27B3B23C3DB987CC3 /* Pods-lk360Player4 */ = {
+			isa = PBXGroup;
+			children = (
+				FDBCC1468C5E6489D25A1C6311C0599B /* Pods-lk360Player4-acknowledgements.markdown */,
+				0C48B10D690451FE7DC7D9F26559524D /* Pods-lk360Player4-acknowledgements.plist */,
+				EBFFD4E0F274EC672F7CD8C7CC14D99D /* Pods-lk360Player4-dummy.m */,
+				0C64457BCD7F46F4943AF7B20D2CE371 /* Pods-lk360Player4-frameworks.sh */,
+				19B34B7783954E73736CF6223075E28F /* Pods-lk360Player4-resources.sh */,
+				FB39BEF68DFFA61FC8026B77EAA7A7A6 /* Pods-lk360Player4.debug.xcconfig */,
+				699229242EA3D8161EC1DC99881EA91D /* Pods-lk360Player4.release.xcconfig */,
+			);
+			name = "Pods-lk360Player4";
+			path = "Target Support Files/Pods-lk360Player4";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				C43EBD97D71E113940775F8DAD715174 /* Pods */,
+				511B193EA762BE36A7A8EFDEC3FC4531 /* Products */,
+				CA30F1B9DE4A6C9EFC439A305906DE01 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F1CBD4F2E889D40CB9907037BEE5549 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				398FCB45FFA3CBBFD986A610E4D40507 /* vrlibraw.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		930F5A1C667E52F0DB2794600F869744 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0C26B312AAA4DE6F314A57D6CF7C63D /* VIMVideoPlayer.xcconfig */,
+				40260BDB7E0B6503780CF218B2DFCB82 /* VIMVideoPlayer-dummy.m */,
+				87AC3CF3DD1B495D9AE4E315D4086750 /* VIMVideoPlayer-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VIMVideoPlayer";
+			sourceTree = "<group>";
+		};
+		B3BD7529DC5F9F72B351392667AF4C06 /* VIMVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				7CE70AFB6283266A62E6DC04BD07CD50 /* VIMVideoPlayer.h */,
+				9387841EA0F10DB7522953662D120807 /* VIMVideoPlayer.m */,
+				1FE09D50BCA1DC06BE00F77DAEB1176A /* VIMVideoPlayerView.h */,
+				65FEDF7CC8677E22C38CB805C8270696 /* VIMVideoPlayerView.m */,
+				930F5A1C667E52F0DB2794600F869744 /* Support Files */,
+			);
+			path = VIMVideoPlayer;
+			sourceTree = "<group>";
+		};
+		C43EBD97D71E113940775F8DAD715174 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DD09EEE9AD03F686415C73F211F018C /* ActionSheetPicker */,
+				C74ED1568207749DA73C862D97A3AB22 /* MD360Player4iOS */,
+				4CA272E1C47F52CF8B371C13C2D24CFA /* SDWebImage */,
+				B3BD7529DC5F9F72B351392667AF4C06 /* VIMVideoPlayer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C74ED1568207749DA73C862D97A3AB22 /* MD360Player4iOS */ = {
+			isa = PBXGroup;
+			children = (
+				962E241344F2F84C2B1A418503845E6A /* GLUtil.h */,
+				1856DC5B7FD9F976CA35201969248079 /* GLUtil.m */,
+				8E64470AD89C0BB71056C6979E945780 /* MD360Director.h */,
+				B0F9FE521E7DB877F1CB2D30D9E5E7F2 /* MD360Director.m */,
+				E754D2C0162FF3C11F8C6681A0A5C67A /* MD360Program.h */,
+				AE91F464A6F18CC156939875E0C3C531 /* MD360Program.m */,
+				3AC227037196938E369E6B53CD0B3D99 /* MD360Renderer.h */,
+				81F4526D08E04D658D5C5B49D7FDA5AB /* MD360Renderer.m */,
+				B079C88F7B7F376322A60EF5BACD1C66 /* MD360Texture.h */,
+				62830318FD575E5D1E134FB21B84BAE8 /* MD360Texture.m */,
+				7EFF8FF26A645CBAC03885EE1D1286D3 /* MDAbsObject3D.h */,
+				F0DE46CA6F9039BEFE9123C50E3FDE78 /* MDAbsObject3D.m */,
+				6098949B18CF7A8932878BBEC4A8AC5D /* MDDisplayStrategy.h */,
+				83924F5616B8ADDA0CB5CEE232E4BFC6 /* MDDisplayStrategy.m */,
+				5BB6A0649CF621C139B7B3316EA21715 /* MDDome3D.m */,
+				2AFEA5C0330345CC9FC08002FC556CD7 /* MDExt.h */,
+				EE1714B6525CA4B9CDBF75B25CE9EB64 /* MDGLKViewController.h */,
+				1624BB56B0928F8CE5258C7F450DAE57 /* MDGLKViewController.m */,
+				967C4568AC3BF943A02A29D4B6D8E143 /* MDGLRendererDelegate.h */,
+				A631CFE8B2D5C4AEF769BDA9796BAA18 /* MDIJKAdapter.m */,
+				2E5232A475324689C27CF85AD2E20B2B /* MDInteractiveStrategy.h */,
+				C78B3B3516C3A206A7829B9DD7F33948 /* MDInteractiveStrategy.m */,
+				AE8E40AE4FDE4BD6747455B3C529646A /* MDModeStrategy.h */,
+				A40DF883CB2CD261B4A95CA4EBCA6C43 /* MDModeStrategy.m */,
+				E40CCB1528C1F952A8601E00FB74F6F8 /* MDObject3DHelper.h */,
+				FD47DC10F9D0A8CB7A8614669F123B48 /* MDObject3DHelper.m */,
+				0A053C4C4F0E2129D459CD0AD2435A8B /* MDProjectionStrategy.h */,
+				98CC2F460C21261E102AA169221BA422 /* MDProjectionStrategy.m */,
+				647D4BA8C7EC6BA16032B253E78ECE75 /* MDRGBABitmapTexture.m */,
+				5B8F657633F994A8051F93C2FD9D94F3 /* MDRGBAProgram.m */,
+				8864A4F972468A9422C2C1537F15085B /* MDRGBAVideoTexture.m */,
+				66CECB02C8BE1D4F42F794D9E7921A69 /* MDSphere3D.m */,
+				61352635E0310E35D58A0BB7776BB1E2 /* MDStereoSphere3D.m */,
+				D6B397A849E2450C320BA1CE17980AE8 /* MDTouchHelper.h */,
+				5B6114FA5D0FB466330ED1960925599D /* MDTouchHelper.m */,
+				B6E12F496067DFC6F400742B86DD00FB /* MDVideoDataAdapter.h */,
+				770E8E25F3E984FBB7756D0D30A7CC02 /* MDVideoDataAdatperAVPlayerImpl.h */,
+				5B2A80AEFFA9C11C8F02D21ABDB24078 /* MDVideoDataAdatperAVPlayerImpl.m */,
+				BF15E891DC4ECAABFA760A8EC81D7461 /* MDVideoFrameAdapter.m */,
+				32A200600C0A58950152CCB77D8F8846 /* MDVRHeader.h */,
+				10E8DCAB617530DE336712858DF3BAFD /* MDVRLibrary.h */,
+				F4CD5C9137618CC8369DBD5EFFD1C0C5 /* MDVRLibrary.m */,
+				117E8059F97A37C752F821E581A62635 /* MDYUV420PProgram.m */,
+				A40D8EDDD6F8B6A1118E8B28C5837D2D /* MDYUV420PVideoTexture.m */,
+				8F1CBD4F2E889D40CB9907037BEE5549 /* Resources */,
+				F6DEDC685662E683E5C5535EF09A57AB /* Support Files */,
+			);
+			path = MD360Player4iOS;
+			sourceTree = "<group>";
+		};
+		CA30F1B9DE4A6C9EFC439A305906DE01 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C53465E8B3D51C27B3B23C3DB987CC3 /* Pods-lk360Player4 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F0AC1750E72114895447570C3BDC6B8C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9158CA32DDD8BDE43F0CA19CE7DA0286 /* NSData+ImageContentType.h */,
+				4AB766FBBC80AB29C3705F42F295B021 /* NSData+ImageContentType.m */,
+				B4A3A84EDCD235E7222ED733921C7ED8 /* SDImageCache.h */,
+				4A779CDEEF494B691424E988C6068CF9 /* SDImageCache.m */,
+				EC9A2EE2C9071699365E0FD39CF15AA1 /* SDWebImageCompat.h */,
+				7541A5C5254E3BFCF5432F4BAAE436CE /* SDWebImageCompat.m */,
+				B7F05E980048EE94927CF4EDEB13A801 /* SDWebImageDecoder.h */,
+				717E906D7BB2C233EBBE500E10B9EFBB /* SDWebImageDecoder.m */,
+				728B04DB9F8EB6F0BF9D3B0A78B2EEF0 /* SDWebImageDownloader.h */,
+				36E0FF17CD9B27EDCA89235A526B06DF /* SDWebImageDownloader.m */,
+				17807B35437AA7B30AE8B91DEEFAC60D /* SDWebImageDownloaderOperation.h */,
+				1EDDD99347BFC6231945DAFC630D2CB9 /* SDWebImageDownloaderOperation.m */,
+				9B8E5CA4883EE07ECD5F233181862CA6 /* SDWebImageManager.h */,
+				4BB9D0230B237720CE565CF5806DBCC8 /* SDWebImageManager.m */,
+				A880FE4F251313B5E48402A421F46811 /* SDWebImageOperation.h */,
+				02B3117B9499CFAE85E2A41C2893277E /* SDWebImagePrefetcher.h */,
+				0E2B37B119A5A93F154F1C899B8E9897 /* SDWebImagePrefetcher.m */,
+				6732BFFB959863B96FC3F135FA33F3D6 /* UIButton+WebCache.h */,
+				44889BAF90D041B1A9F9D4BF24F6BA1B /* UIButton+WebCache.m */,
+				92464A73812C3D94665C809F7BDFC264 /* UIImage+GIF.h */,
+				FD6A064EE88169CAB926B15BDE245355 /* UIImage+GIF.m */,
+				9E022F660F22F1A25AC085C026775FC5 /* UIImage+MultiFormat.h */,
+				8F7BEDA894449368CBA9ADE7B768DBD2 /* UIImage+MultiFormat.m */,
+				55A3EA7EF2D83C3B527B21BBB55ED3F1 /* UIImageView+HighlightedWebCache.h */,
+				842043ED338EED85310EA05C60579C43 /* UIImageView+HighlightedWebCache.m */,
+				F3F8EC3236EDF10C56379877B14D19F0 /* UIImageView+WebCache.h */,
+				4D27CC3E2101BD93FE9EF6D808B4D3D3 /* UIImageView+WebCache.m */,
+				9A173328704BACA0FE2735934EB8A4FF /* UIView+WebCacheOperation.h */,
+				D56F3935DB8DA2B57B0420EFA7B8888E /* UIView+WebCacheOperation.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		F6DEDC685662E683E5C5535EF09A57AB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D4E930C0EEFD3A89436043D39E0D5DD /* MD360Player4iOS.xcconfig */,
+				76A3925CF115BD0A3AF8A56D2B12261D /* MD360Player4iOS-dummy.m */,
+				1F55849D6EEC7FE8C96116957380B5D7 /* MD360Player4iOS-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MD360Player4iOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0FA476210C6CD1FAF6D961B4876502C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E6204AB00B06348702CF5BAA13E8FD /* AbstractActionSheetPicker.h in Headers */,
+				08B7F4F7741F66FE39CB403D8935FA95 /* ActionSheetCustomPicker.h in Headers */,
+				F447C8365974C3B748F01AD502276ED8 /* ActionSheetCustomPickerDelegate.h in Headers */,
+				8ED6273632EAC7CC120E35A0AE4A4321 /* ActionSheetDatePicker.h in Headers */,
+				2D92856B28DC2D63F53C6054067DEE58 /* ActionSheetDistancePicker.h in Headers */,
+				E6D430FAFA40DFD82D692B53D95BACE1 /* ActionSheetLocalePicker.h in Headers */,
+				BC4E36D7CEF614DC998F9F4DEDAA51DD /* ActionSheetPicker.h in Headers */,
+				5A06A20739B0ECA9929C5C500E6BEC88 /* ActionSheetStringPicker.h in Headers */,
+				EEB8BF0A8F4C4D3E9A2244BA5A742DE0 /* DistancePickerView.h in Headers */,
+				065F9FD79B01DA04DAB225C78F885294 /* SWActionSheet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1080854ACBB154802833109F7B475F6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				683387C516F94CB60304608B1B8B197F /* VIMVideoPlayer.h in Headers */,
+				561802AF8E039DEDD152E2CC39A13822 /* VIMVideoPlayerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341EFBC26C3C440BA55A79E446E14710 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710037E06937E9C9BDCF2DD38AC835B0 /* GLUtil.h in Headers */,
+				EE85CFBACF31AD6EF62F16567C2D7469 /* MD360Director.h in Headers */,
+				0349C0F93AFE3C58DD0A140E90992172 /* MD360Program.h in Headers */,
+				7A048A98A50FD2045EE636ABEB9B88E0 /* MD360Renderer.h in Headers */,
+				4669AA2B6D39E240A34DC9F2168140C8 /* MD360Texture.h in Headers */,
+				3B65706FEC8D609346A0277D0B896BD4 /* MDAbsObject3D.h in Headers */,
+				257EB9228215B8DBA9D0EDB5AAF1AD0A /* MDDisplayStrategy.h in Headers */,
+				DB29E27D00C5FB784025EE9A610890AD /* MDExt.h in Headers */,
+				FA0E72A9C9D91155D732B7F7327B4D9E /* MDGLKViewController.h in Headers */,
+				9380A32D6FC7329DA1FC94B842A8ED4B /* MDGLRendererDelegate.h in Headers */,
+				49600427B99D4288611BEBD74AA84FC5 /* MDInteractiveStrategy.h in Headers */,
+				1EE3B10A1A878520C110293577D4964E /* MDModeStrategy.h in Headers */,
+				9C642ABB7FDF3B75954E8FB63C9DDD46 /* MDObject3DHelper.h in Headers */,
+				BEBD0583ECF04CCC6FC81E72E9ADC9FF /* MDProjectionStrategy.h in Headers */,
+				9135D9599FA9417D358D2BCA9757397D /* MDTouchHelper.h in Headers */,
+				783A81F0E44D7454AE041021BCC7280E /* MDVideoDataAdapter.h in Headers */,
+				9DA31764D0927D8C576308A69467E722 /* MDVideoDataAdatperAVPlayerImpl.h in Headers */,
+				0AB5296F0C66D9BD44AF85FABBE1379F /* MDVRHeader.h in Headers */,
+				9F2F28BB0145A6F32555580802DAB1FD /* MDVRLibrary.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB3D6E55C6B8AF2E98DA12649015D9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3E1C368A8F25F1394CD22C69D598B2 /* NSData+ImageContentType.h in Headers */,
+				098664D07BA38D86E14189948CC38829 /* SDImageCache.h in Headers */,
+				BE2227564224851DD1395ED50B541B6A /* SDWebImageCompat.h in Headers */,
+				C08B3335892811CCA2200E41F86F62F0 /* SDWebImageDecoder.h in Headers */,
+				599FFD3CBA40B5C58321B5FF37BDE3BE /* SDWebImageDownloader.h in Headers */,
+				76520F51F7D49E69E45770C48D902E74 /* SDWebImageDownloaderOperation.h in Headers */,
+				C4E17898C0F14EBC5E76644AC9ED7E4D /* SDWebImageManager.h in Headers */,
+				E14682D5D78BCDDCBD43C6FAD7D99CE9 /* SDWebImageOperation.h in Headers */,
+				3DCD5B0D6C7272CE93DF650B23F9B3DE /* SDWebImagePrefetcher.h in Headers */,
+				1BD344DE443B499B5688CB52C89F12E5 /* UIButton+WebCache.h in Headers */,
+				BB7DA23FC1F433743174458AB3999986 /* UIImage+GIF.h in Headers */,
+				9D2D04AE2EB19522C779C55FBE3DA615 /* UIImage+MultiFormat.h in Headers */,
+				37CACE965A376F8824C233DD366BE8CF /* UIImageView+HighlightedWebCache.h in Headers */,
+				98E3B0BF05A44560438EA7990444BE2F /* UIImageView+WebCache.h in Headers */,
+				4403C3B7AF1170112C3FBD66959F2FFF /* UIView+WebCacheOperation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		66E90A2CC364C2CB713301EBCEE0642D /* ActionSheetPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FAC81F42873F52F0CA9C5563E0B9980 /* Build configuration list for PBXNativeTarget "ActionSheetPicker" */;
+			buildPhases = (
+				E97C443C4FB0ABEA4452D6C81D1F7F61 /* Sources */,
+				797BE32A3460F9194EBFCFCF97E84B4B /* Frameworks */,
+				0FA476210C6CD1FAF6D961B4876502C2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ActionSheetPicker;
+			productName = ActionSheetPicker;
+			productReference = EBBD6C02300EACC47EB8313C8521BF3C /* libActionSheetPicker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B8EDA5D19FE21C02159856EB64418BAE /* MD360Player4iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DEC3466304F27DAC7346691C8911E3E /* Build configuration list for PBXNativeTarget "MD360Player4iOS" */;
+			buildPhases = (
+				5904A499334AAD4355668B0733ECEF86 /* Sources */,
+				8E9A1CD2A18B0D7A61A253063670CA10 /* Frameworks */,
+				341EFBC26C3C440BA55A79E446E14710 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MD360Player4iOS;
+			productName = MD360Player4iOS;
+			productReference = EB78EB71118196BFF7BACC8BFA660777 /* libMD360Player4iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BEED1AF0A11D32D621B43B8F111D3E12 /* Pods-lk360Player4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEEE14C0D3EE1B74728672F4E744FD1C /* Build configuration list for PBXNativeTarget "Pods-lk360Player4" */;
+			buildPhases = (
+				26528144272039DCA372B3E3F24C574F /* Sources */,
+				B24C6BD71C29FC8B9A0DB9DF3FD1409B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F8C8680EFA58CAAC3D0E97032BD2423 /* PBXTargetDependency */,
+				92CBDC167416270733D4148E7B165214 /* PBXTargetDependency */,
+				C1F510FAA3BCA4091176A1901500991C /* PBXTargetDependency */,
+				EC67D654D2AAB8B06E1671CB3BB1E8E8 /* PBXTargetDependency */,
+			);
+			name = "Pods-lk360Player4";
+			productName = "Pods-lk360Player4";
+			productReference = 04A29DCE669FDC3AE2D0148B84A95A2B /* libPods-lk360Player4.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C17DA73F507C1AA8908CA80B3E7E2DB3 /* VIMVideoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD3E716EEA1F0C1869B8E2823E792A43 /* Build configuration list for PBXNativeTarget "VIMVideoPlayer" */;
+			buildPhases = (
+				0E9F6647D6C80DA7917D6B723C3F99E2 /* Sources */,
+				F74E22051E30DC19FE10963E3D047030 /* Frameworks */,
+				1080854ACBB154802833109F7B475F6E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VIMVideoPlayer;
+			productName = VIMVideoPlayer;
+			productReference = 1BF361C4E877E17C49D2CDBB27683BF3 /* libVIMVideoPlayer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D708AFA96B122142B60B9736B812B98D /* SDWebImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD276519580DE5BBDD9A869B8CC83B4A /* Build configuration list for PBXNativeTarget "SDWebImage" */;
+			buildPhases = (
+				682272FE79AEA92C6921C64D0BCFE734 /* Sources */,
+				DF940E482DC4B1505424278EA1FDB7EF /* Frameworks */,
+				5CB3D6E55C6B8AF2E98DA12649015D9B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDWebImage;
+			productName = SDWebImage;
+			productReference = 5D828B00CBA12E6C6B2BA6F8C65AA073 /* libSDWebImage.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 511B193EA762BE36A7A8EFDEC3FC4531 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66E90A2CC364C2CB713301EBCEE0642D /* ActionSheetPicker */,
+				B8EDA5D19FE21C02159856EB64418BAE /* MD360Player4iOS */,
+				BEED1AF0A11D32D621B43B8F111D3E12 /* Pods-lk360Player4 */,
+				D708AFA96B122142B60B9736B812B98D /* SDWebImage */,
+				C17DA73F507C1AA8908CA80B3E7E2DB3 /* VIMVideoPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E9F6647D6C80DA7917D6B723C3F99E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD22F5BDAD9B622245E64AD8C0454097 /* VIMVideoPlayer-dummy.m in Sources */,
+				FEF9B7F345F65B3EA1863F03073ABCF2 /* VIMVideoPlayer.m in Sources */,
+				BBDD5C487D3D4C5171F8CBD10536A75B /* VIMVideoPlayerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26528144272039DCA372B3E3F24C574F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A3E331E10E039FDE260D07EE6410E8 /* Pods-lk360Player4-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5904A499334AAD4355668B0733ECEF86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF40032F80DACDC14AF2B68B012F02B /* GLUtil.m in Sources */,
+				9B6E9FFD37E21D81976710903212E2B9 /* MD360Director.m in Sources */,
+				0FA95AAFF6C512C888F8A33990C9E6A6 /* MD360Player4iOS-dummy.m in Sources */,
+				1E71B0268B9BED0AA92684CDEA0C0436 /* MD360Program.m in Sources */,
+				4F22BE7731A8AD923C5D1469D822A436 /* MD360Renderer.m in Sources */,
+				D4C2D6BEB2735CB92E6D3BCEFFB65465 /* MD360Texture.m in Sources */,
+				B309E29DBCCC4A6567088EEF9A99BA73 /* MDAbsObject3D.m in Sources */,
+				FB4C8D09D88F460DA5DC362E2F9FFDFD /* MDDisplayStrategy.m in Sources */,
+				25F30D0FED400DC65D62DDE92CF3F22E /* MDDome3D.m in Sources */,
+				7371636F22A4B332922C20D69C2B7DA1 /* MDGLKViewController.m in Sources */,
+				428D57519594151CF28555B61B706013 /* MDIJKAdapter.m in Sources */,
+				261032E5CD1AD63D7FF88F373B0E2C4E /* MDInteractiveStrategy.m in Sources */,
+				C13107F8CE4EE14D78CABB2D5DCB36B4 /* MDModeStrategy.m in Sources */,
+				E2EF58AA6C7F52DC0E7A3EF86DC19DA9 /* MDObject3DHelper.m in Sources */,
+				AF51DADE77F89305B17644B4464A9FD9 /* MDProjectionStrategy.m in Sources */,
+				12C52BED1FC11DD1164F94E22673D330 /* MDRGBABitmapTexture.m in Sources */,
+				64D5D91CF314A020EAE1997D9FC3218C /* MDRGBAProgram.m in Sources */,
+				8004CDF6ADC56F2B18C858E44013B7ED /* MDRGBAVideoTexture.m in Sources */,
+				9C3EE350671360F75784D9CF2EEFECFE /* MDSphere3D.m in Sources */,
+				DC195969A39F7B4AE37730FF93F202A2 /* MDStereoSphere3D.m in Sources */,
+				A414244EC0E6DBB9FCE47333D7F48C10 /* MDTouchHelper.m in Sources */,
+				91CEE23B1C49E540E9898A7FACB31ABA /* MDVideoDataAdatperAVPlayerImpl.m in Sources */,
+				CB9C66C545F46F7D78B2F53B87EE20D2 /* MDVideoFrameAdapter.m in Sources */,
+				544EB8A352B15F7A63200232E661DE75 /* MDVRLibrary.m in Sources */,
+				03E14BCB232979024EC19C961665A2C7 /* MDYUV420PProgram.m in Sources */,
+				E3C19C16110476742EB11E6B5BBE3154 /* MDYUV420PVideoTexture.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		682272FE79AEA92C6921C64D0BCFE734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DB857E78E6B5259695E417773650C1 /* NSData+ImageContentType.m in Sources */,
+				EB072B7C3149F3B1A146DE39E95ECFE2 /* SDImageCache.m in Sources */,
+				A76C2B4A27F877234F24083E079AA5B9 /* SDWebImage-dummy.m in Sources */,
+				B67E06D66C725271EE4D3C78AC10B77B /* SDWebImageCompat.m in Sources */,
+				211D078B253521041E34D2776D4B5E87 /* SDWebImageDecoder.m in Sources */,
+				18D9A845FDE3FC508F7597545F507729 /* SDWebImageDownloader.m in Sources */,
+				69D6DEEE924FBD29F2F92E57559AA0DB /* SDWebImageDownloaderOperation.m in Sources */,
+				226A3EE7CDDE0FA69E776516E6513858 /* SDWebImageManager.m in Sources */,
+				84902711C8186CEE4DBBE925B1DF7FB2 /* SDWebImagePrefetcher.m in Sources */,
+				A5E9CED28C6562600529DD536FEB3C1E /* UIButton+WebCache.m in Sources */,
+				5C4DDE0E7B7CCA08CFBDCEF31AFEBD7D /* UIImage+GIF.m in Sources */,
+				FEA33AFD3FD28C0921C5F51971624CC0 /* UIImage+MultiFormat.m in Sources */,
+				D0DCA478A4D2C3C75E3CC0F99101414F /* UIImageView+HighlightedWebCache.m in Sources */,
+				0546B9B2B449560483F31C2B33E5699F /* UIImageView+WebCache.m in Sources */,
+				F906E05A9CDFD5A6744F9EF47B812E9F /* UIView+WebCacheOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97C443C4FB0ABEA4452D6C81D1F7F61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35B306D85C8879B8B091CD6B6B80C5D5 /* AbstractActionSheetPicker.m in Sources */,
+				28666DED72A1F2AD59B5F0E4DF253AE1 /* ActionSheetCustomPicker.m in Sources */,
+				4A2EC0A0FEA44DD32B00196796FA8B87 /* ActionSheetDatePicker.m in Sources */,
+				8D4EA42D749DF62B0DE3EE2227E5726E /* ActionSheetDistancePicker.m in Sources */,
+				08D37AEBA4DDDE3432A24B95A67ACB94 /* ActionSheetLocalePicker.m in Sources */,
+				6EF89CD5CDF6FF9CF36D38AAAB17FD84 /* ActionSheetPicker-dummy.m in Sources */,
+				A0372FD0E9FE943695070071769B27BE /* ActionSheetStringPicker.m in Sources */,
+				F642E71EE1B3D24663401355C520411A /* DistancePickerView.m in Sources */,
+				8989C52448BDB80411228DD39DA1A67D /* SWActionSheet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F8C8680EFA58CAAC3D0E97032BD2423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ActionSheetPicker;
+			target = 66E90A2CC364C2CB713301EBCEE0642D /* ActionSheetPicker */;
+			targetProxy = 44FC337C095A6258E9FD2CDF68CA875C /* PBXContainerItemProxy */;
+		};
+		92CBDC167416270733D4148E7B165214 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MD360Player4iOS;
+			target = B8EDA5D19FE21C02159856EB64418BAE /* MD360Player4iOS */;
+			targetProxy = D781A3902F46F4E88BCDB6D38FD01F08 /* PBXContainerItemProxy */;
+		};
+		C1F510FAA3BCA4091176A1901500991C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = D708AFA96B122142B60B9736B812B98D /* SDWebImage */;
+			targetProxy = 6C5DC4712A926C8ACA2B695B889C0204 /* PBXContainerItemProxy */;
+		};
+		EC67D654D2AAB8B06E1671CB3BB1E8E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VIMVideoPlayer;
+			target = C17DA73F507C1AA8908CA80B3E7E2DB3 /* VIMVideoPlayer */;
+			targetProxy = FD68A03C27AB458B2340D072434250F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05A946E229F2DF69E03FDA3C96BE3B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC48C709500B0722003531BD8CC9B5FE /* SDWebImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		216872C6ECC7F1B5DCB6082187AC88F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC48C709500B0722003531BD8CC9B5FE /* SDWebImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2F838D9FF5EAAA099E78E5874C048CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0C26B312AAA4DE6F314A57D6CF7C63D /* VIMVideoPlayer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VIMVideoPlayer/VIMVideoPlayer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3EBFE5F69A4907661C13BD052A70317C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3880CCB09B8F390A4EDCCD6E29A4A05F /* ActionSheetPicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ActionSheetPicker/ActionSheetPicker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		596B4D6BE5612C9D50FC260296213A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3880CCB09B8F390A4EDCCD6E29A4A05F /* ActionSheetPicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ActionSheetPicker/ActionSheetPicker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5FF452EC00B80D35DB602B0734ECB58C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0C26B312AAA4DE6F314A57D6CF7C63D /* VIMVideoPlayer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VIMVideoPlayer/VIMVideoPlayer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A4498CDAD368365FA259F6827CC212B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 699229242EA3D8161EC1DC99881EA91D /* Pods-lk360Player4.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1E0F6F334FE2EB0EC6E1BBE82774AA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D4E930C0EEFD3A89436043D39E0D5DD /* MD360Player4iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MD360Player4iOS/MD360Player4iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E7B8BFD7D9226D353A6A3509A975E933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D4E930C0EEFD3A89436043D39E0D5DD /* MD360Player4iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MD360Player4iOS/MD360Player4iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FF07A20A5FC86DF9BEA04EB6DE127701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB39BEF68DFFA61FC8026B77EAA7A7A6 /* Pods-lk360Player4.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DEC3466304F27DAC7346691C8911E3E /* Build configuration list for PBXNativeTarget "MD360Player4iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B8BFD7D9226D353A6A3509A975E933 /* Debug */,
+				E1E0F6F334FE2EB0EC6E1BBE82774AA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FAC81F42873F52F0CA9C5563E0B9980 /* Build configuration list for PBXNativeTarget "ActionSheetPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				596B4D6BE5612C9D50FC260296213A92 /* Debug */,
+				3EBFE5F69A4907661C13BD052A70317C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD276519580DE5BBDD9A869B8CC83B4A /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05A946E229F2DF69E03FDA3C96BE3B86 /* Debug */,
+				216872C6ECC7F1B5DCB6082187AC88F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEEE14C0D3EE1B74728672F4E744FD1C /* Build configuration list for PBXNativeTarget "Pods-lk360Player4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF07A20A5FC86DF9BEA04EB6DE127701 /* Debug */,
+				A4498CDAD368365FA259F6827CC212B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD3E716EEA1F0C1869B8E2823E792A43 /* Build configuration list for PBXNativeTarget "VIMVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F838D9FF5EAAA099E78E5874C048CAF /* Debug */,
+				5FF452EC00B80D35DB602B0734ECB58C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

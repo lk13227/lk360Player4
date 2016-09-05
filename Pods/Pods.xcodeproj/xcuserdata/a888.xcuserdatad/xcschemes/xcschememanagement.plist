@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ActionSheetPicker.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MD360Player4iOS.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-lk360Player4.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>VIMVideoPlayer.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>66E90A2CC364C2CB713301EBCEE0642D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B8EDA5D19FE21C02159856EB64418BAE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BEED1AF0A11D32D621B43B8F111D3E12</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C17DA73F507C1AA8908CA80B3E7E2DB3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D708AFA96B122142B60B9736B812B98D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

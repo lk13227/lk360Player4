@@ -1,0 +1,23 @@
+PODS:
+  - ActionSheetPicker (1.6.2)
+  - MD360Player4iOS (1.1.0)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - VIMVideoPlayer (6.0.1)
+
+DEPENDENCIES:
+  - ActionSheetPicker
+  - MD360Player4iOS
+  - SDWebImage
+  - VIMVideoPlayer
+
+SPEC CHECKSUMS:
+  ActionSheetPicker: cc5255a36aabaf34245b97a478059d26bac8cd84
+  MD360Player4iOS: fea71731884df9b6253156265c8787ac10acae68
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  VIMVideoPlayer: f4ed0a9986294ec3684a2e6bdc738e30051ef4ef
+
+PODFILE CHECKSUM: 212247707666c9a6f7d8b341b5c3b27e1cbd52ef
+
+COCOAPODS: 1.0.1

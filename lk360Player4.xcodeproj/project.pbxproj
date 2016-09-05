@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59C580DD1D7D66D7000A9B88 /* demo.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 59C580DC1D7D66D7000A9B88 /* demo.m4v */; };
+		59CEF6751D796BA00093E204 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF6741D796BA00093E204 /* main.m */; };
+		59CEF6781D796BA00093E204 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF6771D796BA00093E204 /* AppDelegate.m */; };
+		59CEF67B1D796BA00093E204 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF67A1D796BA00093E204 /* ViewController.m */; };
+		59CEF67E1D796BA00093E204 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59CEF67C1D796BA00093E204 /* Main.storyboard */; };
+		59CEF6801D796BA00093E204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59CEF67F1D796BA00093E204 /* Assets.xcassets */; };
+		59CEF6831D796BA00093E204 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59CEF6811D796BA00093E204 /* LaunchScreen.storyboard */; };
+		59CEF68E1D796BA00093E204 /* lk360Player4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF68D1D796BA00093E204 /* lk360Player4Tests.m */; };
+		59CEF6991D796BA00093E204 /* lk360Player4UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF6981D796BA00093E204 /* lk360Player4UITests.m */; };
+		59CEF6AC1D7971BD0093E204 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF6A81D7971BD0093E204 /* PlayerViewController.m */; };
+		59CEF6AD1D7971BD0093E204 /* VideoPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59CEF6A91D7971BD0093E204 /* VideoPlayer.storyboard */; };
+		59CEF6AE1D7971BD0093E204 /* VideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CEF6AB1D7971BD0093E204 /* VideoPlayerViewController.m */; };
+		59CEF6B01D7977D40093E204 /* test3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 59CEF6AF1D7977D40093E204 /* test3.mp4 */; };
+		A228870D80A3B646475E6CAF /* libPods-lk360Player4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60ED6A9151B7D3BB11B00A03 /* libPods-lk360Player4.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59CEF68A1D796BA00093E204 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59CEF6681D796BA00093E204 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59CEF66F1D796BA00093E204;
+			remoteInfo = lk360Player4;
+		};
+		59CEF6951D796BA00093E204 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59CEF6681D796BA00093E204 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59CEF66F1D796BA00093E204;
+			remoteInfo = lk360Player4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15CD6D928B68645F3E88D419 /* Pods-lk360Player4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lk360Player4.release.xcconfig"; path = "Pods/Target Support Files/Pods-lk360Player4/Pods-lk360Player4.release.xcconfig"; sourceTree = "<group>"; };
+		221C385F17E6037D2712B2BE /* Pods-lk360Player4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lk360Player4.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lk360Player4/Pods-lk360Player4.debug.xcconfig"; sourceTree = "<group>"; };
+		59C580DC1D7D66D7000A9B88 /* demo.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo.m4v; sourceTree = "<group>"; };
+		59CEF6701D796BA00093E204 /* lk360Player4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lk360Player4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59CEF6741D796BA00093E204 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		59CEF6761D796BA00093E204 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		59CEF6771D796BA00093E204 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		59CEF6791D796BA00093E204 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		59CEF67A1D796BA00093E204 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		59CEF67D1D796BA00093E204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59CEF67F1D796BA00093E204 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59CEF6821D796BA00093E204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59CEF6841D796BA00093E204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59CEF6891D796BA00093E204 /* lk360Player4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lk360Player4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59CEF68D1D796BA00093E204 /* lk360Player4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lk360Player4Tests.m; sourceTree = "<group>"; };
+		59CEF68F1D796BA00093E204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59CEF6941D796BA00093E204 /* lk360Player4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lk360Player4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59CEF6981D796BA00093E204 /* lk360Player4UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lk360Player4UITests.m; sourceTree = "<group>"; };
+		59CEF69A1D796BA00093E204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59CEF6A71D7971BD0093E204 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		59CEF6A81D7971BD0093E204 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		59CEF6A91D7971BD0093E204 /* VideoPlayer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VideoPlayer.storyboard; sourceTree = "<group>"; };
+		59CEF6AA1D7971BD0093E204 /* VideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayerViewController.h; sourceTree = "<group>"; };
+		59CEF6AB1D7971BD0093E204 /* VideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerViewController.m; sourceTree = "<group>"; };
+		59CEF6AF1D7977D40093E204 /* test3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test3.mp4; sourceTree = "<group>"; };
+		60ED6A9151B7D3BB11B00A03 /* libPods-lk360Player4.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lk360Player4.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59CEF66D1D796BA00093E204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A228870D80A3B646475E6CAF /* libPods-lk360Player4.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59CEF6861D796BA00093E204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59CEF6911D796BA00093E204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B7A1FBEE33B987BF7F08EE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60ED6A9151B7D3BB11B00A03 /* libPods-lk360Player4.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59CEF6671D796BA00093E204 = {
+			isa = PBXGroup;
+			children = (
+				59CEF6721D796BA00093E204 /* lk360Player4 */,
+				59CEF68C1D796BA00093E204 /* lk360Player4Tests */,
+				59CEF6971D796BA00093E204 /* lk360Player4UITests */,
+				59CEF6711D796BA00093E204 /* Products */,
+				C8DD03F9F8CFC6E7F6664C77 /* Pods */,
+				3B7A1FBEE33B987BF7F08EE8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		59CEF6711D796BA00093E204 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59CEF6701D796BA00093E204 /* lk360Player4.app */,
+				59CEF6891D796BA00093E204 /* lk360Player4Tests.xctest */,
+				59CEF6941D796BA00093E204 /* lk360Player4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59CEF6721D796BA00093E204 /* lk360Player4 */ = {
+			isa = PBXGroup;
+			children = (
+				59CEF6A61D7971BD0093E204 /* Player */,
+				59CEF6761D796BA00093E204 /* AppDelegate.h */,
+				59CEF6771D796BA00093E204 /* AppDelegate.m */,
+				59CEF6791D796BA00093E204 /* ViewController.h */,
+				59CEF67A1D796BA00093E204 /* ViewController.m */,
+				59CEF67C1D796BA00093E204 /* Main.storyboard */,
+				59CEF67F1D796BA00093E204 /* Assets.xcassets */,
+				59CEF6811D796BA00093E204 /* LaunchScreen.storyboard */,
+				59CEF6841D796BA00093E204 /* Info.plist */,
+				59CEF6731D796BA00093E204 /* Supporting Files */,
+			);
+			path = lk360Player4;
+			sourceTree = "<group>";
+		};
+		59CEF6731D796BA00093E204 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59CEF6741D796BA00093E204 /* main.m */,
+				59CEF6AF1D7977D40093E204 /* test3.mp4 */,
+				59C580DC1D7D66D7000A9B88 /* demo.m4v */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59CEF68C1D796BA00093E204 /* lk360Player4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				59CEF68D1D796BA00093E204 /* lk360Player4Tests.m */,
+				59CEF68F1D796BA00093E204 /* Info.plist */,
+			);
+			path = lk360Player4Tests;
+			sourceTree = "<group>";
+		};
+		59CEF6971D796BA00093E204 /* lk360Player4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				59CEF6981D796BA00093E204 /* lk360Player4UITests.m */,
+				59CEF69A1D796BA00093E204 /* Info.plist */,
+			);
+			path = lk360Player4UITests;
+			sourceTree = "<group>";
+		};
+		59CEF6A61D7971BD0093E204 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				59CEF6A71D7971BD0093E204 /* PlayerViewController.h */,
+				59CEF6A81D7971BD0093E204 /* PlayerViewController.m */,
+				59CEF6A91D7971BD0093E204 /* VideoPlayer.storyboard */,
+				59CEF6AA1D7971BD0093E204 /* VideoPlayerViewController.h */,
+				59CEF6AB1D7971BD0093E204 /* VideoPlayerViewController.m */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		C8DD03F9F8CFC6E7F6664C77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				221C385F17E6037D2712B2BE /* Pods-lk360Player4.debug.xcconfig */,
+				15CD6D928B68645F3E88D419 /* Pods-lk360Player4.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59CEF66F1D796BA00093E204 /* lk360Player4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59CEF69D1D796BA00093E204 /* Build configuration list for PBXNativeTarget "lk360Player4" */;
+			buildPhases = (
+				178B683E0C52370602640BB7 /* [CP] Check Pods Manifest.lock */,
+				59CEF66C1D796BA00093E204 /* Sources */,
+				59CEF66D1D796BA00093E204 /* Frameworks */,
+				59CEF66E1D796BA00093E204 /* Resources */,
+				719750A1C64F74661B220EB8 /* [CP] Embed Pods Frameworks */,
+				F8E424FD0CE2E2779E5AD316 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lk360Player4;
+			productName = lk360Player4;
+			productReference = 59CEF6701D796BA00093E204 /* lk360Player4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59CEF6881D796BA00093E204 /* lk360Player4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59CEF6A01D796BA00093E204 /* Build configuration list for PBXNativeTarget "lk360Player4Tests" */;
+			buildPhases = (
+				59CEF6851D796BA00093E204 /* Sources */,
+				59CEF6861D796BA00093E204 /* Frameworks */,
+				59CEF6871D796BA00093E204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59CEF68B1D796BA00093E204 /* PBXTargetDependency */,
+			);
+			name = lk360Player4Tests;
+			productName = lk360Player4Tests;
+			productReference = 59CEF6891D796BA00093E204 /* lk360Player4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59CEF6931D796BA00093E204 /* lk360Player4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59CEF6A31D796BA00093E204 /* Build configuration list for PBXNativeTarget "lk360Player4UITests" */;
+			buildPhases = (
+				59CEF6901D796BA00093E204 /* Sources */,
+				59CEF6911D796BA00093E204 /* Frameworks */,
+				59CEF6921D796BA00093E204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59CEF6961D796BA00093E204 /* PBXTargetDependency */,
+			);
+			name = lk360Player4UITests;
+			productName = lk360Player4UITests;
+			productReference = 59CEF6941D796BA00093E204 /* lk360Player4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59CEF6681D796BA00093E204 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lk;
+				TargetAttributes = {
+					59CEF66F1D796BA00093E204 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					59CEF6881D796BA00093E204 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 59CEF66F1D796BA00093E204;
+					};
+					59CEF6931D796BA00093E204 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 59CEF66F1D796BA00093E204;
+					};
+				};
+			};
+			buildConfigurationList = 59CEF66B1D796BA00093E204 /* Build configuration list for PBXProject "lk360Player4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59CEF6671D796BA00093E204;
+			productRefGroup = 59CEF6711D796BA00093E204 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59CEF66F1D796BA00093E204 /* lk360Player4 */,
+				59CEF6881D796BA00093E204 /* lk360Player4Tests */,
+				59CEF6931D796BA00093E204 /* lk360Player4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59CEF66E1D796BA00093E204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CEF6831D796BA00093E204 /* LaunchScreen.storyboard in Resources */,
+				59CEF6AD1D7971BD0093E204 /* VideoPlayer.storyboard in Resources */,
+				59CEF6B01D7977D40093E204 /* test3.mp4 in Resources */,
+				59CEF6801D796BA00093E204 /* Assets.xcassets in Resources */,
+				59C580DD1D7D66D7000A9B88 /* demo.m4v in Resources */,
+				59CEF67E1D796BA00093E204 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59CEF6871D796BA00093E204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59CEF6921D796BA00093E204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		178B683E0C52370602640BB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		719750A1C64F74661B220EB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lk360Player4/Pods-lk360Player4-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8E424FD0CE2E2779E5AD316 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lk360Player4/Pods-lk360Player4-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59CEF66C1D796BA00093E204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CEF6AE1D7971BD0093E204 /* VideoPlayerViewController.m in Sources */,
+				59CEF67B1D796BA00093E204 /* ViewController.m in Sources */,
+				59CEF6AC1D7971BD0093E204 /* PlayerViewController.m in Sources */,
+				59CEF6781D796BA00093E204 /* AppDelegate.m in Sources */,
+				59CEF6751D796BA00093E204 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59CEF6851D796BA00093E204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CEF68E1D796BA00093E204 /* lk360Player4Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59CEF6901D796BA00093E204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CEF6991D796BA00093E204 /* lk360Player4UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59CEF68B1D796BA00093E204 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59CEF66F1D796BA00093E204 /* lk360Player4 */;
+			targetProxy = 59CEF68A1D796BA00093E204 /* PBXContainerItemProxy */;
+		};
+		59CEF6961D796BA00093E204 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59CEF66F1D796BA00093E204 /* lk360Player4 */;
+			targetProxy = 59CEF6951D796BA00093E204 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59CEF67C1D796BA00093E204 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59CEF67D1D796BA00093E204 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59CEF6811D796BA00093E204 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59CEF6821D796BA00093E204 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59CEF69B1D796BA00093E204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59CEF69C1D796BA00093E204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59CEF69E1D796BA00093E204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 221C385F17E6037D2712B2BE /* Pods-lk360Player4.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = lk360Player4/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ez360.KDBWG.lk360Player4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		59CEF69F1D796BA00093E204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15CD6D928B68645F3E88D419 /* Pods-lk360Player4.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = lk360Player4/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ez360.KDBWG.lk360Player4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		59CEF6A11D796BA00093E204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = lk360Player4Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ez360.KDBWG.lk360Player4Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lk360Player4.app/lk360Player4";
+			};
+			name = Debug;
+		};
+		59CEF6A21D796BA00093E204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = lk360Player4Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ez360.KDBWG.lk360Player4Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lk360Player4.app/lk360Player4";
+			};
+			name = Release;
+		};
+		59CEF6A41D796BA00093E204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = lk360Player4UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ez360.KDBWG.lk360Player4UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = lk360Player4;
+			};
+			name = Debug;
+		};
+		59CEF6A51D796BA00093E204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = lk360Player4UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ez360.KDBWG.lk360Player4UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = lk360Player4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59CEF66B1D796BA00093E204 /* Build configuration list for PBXProject "lk360Player4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59CEF69B1D796BA00093E204 /* Debug */,
+				59CEF69C1D796BA00093E204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59CEF69D1D796BA00093E204 /* Build configuration list for PBXNativeTarget "lk360Player4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59CEF69E1D796BA00093E204 /* Debug */,
+				59CEF69F1D796BA00093E204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59CEF6A01D796BA00093E204 /* Build configuration list for PBXNativeTarget "lk360Player4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59CEF6A11D796BA00093E204 /* Debug */,
+				59CEF6A21D796BA00093E204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59CEF6A31D796BA00093E204 /* Build configuration list for PBXNativeTarget "lk360Player4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59CEF6A41D796BA00093E204 /* Debug */,
+				59CEF6A51D796BA00093E204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59CEF6681D796BA00093E204 /* Project object */;
+}
